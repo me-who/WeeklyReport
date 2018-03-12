@@ -1,0 +1,38 @@
+/* css reset */
+body, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.login-content {
+  margin-top: 150px;
+}
+.modify_form {
+  margin-top: 100px;
+}
+
+.editable-row-operations a {
+  margin-right: 8px;
+}
+
+.header {
+  height: 64px;
+  line-height: 64px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #1890ff;
+}
+.header a{
+  padding: 18px 0;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+.header h3 {
+  text-align: right;
+  color: #fff;
+}
+.hide {
+  display: none;
+}
+
