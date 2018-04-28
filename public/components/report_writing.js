@@ -66,18 +66,18 @@ class ReportWrite extends React.Component {
             <Popconfirm title="Sure to delete?" onConfirm={() => this.onDelete(record.key)}>
               <a href="#">删除</a>
             </Popconfirm>
-            <div className="editable-row-operations">
-              {
-                editable ?
-                  <span>
-                  <a onClick={() => this.save(record.key)}>保存</a>
-                  <Popconfirm title="Sure to cancel?" onConfirm={() => this.cancel(record.key)}>
-                    <a>取消</a>
-                  </Popconfirm>
-                </span>
-                  : <a onClick={() => this.edit(record.key)}>修改</a>
-              }
-            </div>
+            {/*<div className="editable-row-operations">*/}
+              {/*{*/}
+                {/*editable ?*/}
+                  {/*<span>*/}
+                  {/*<a onClick={() => this.save(record.key)}>保存</a>*/}
+                  {/*<Popconfirm title="Sure to cancel?" onConfirm={() => this.cancel(record.key)}>*/}
+                    {/*<a>取消</a>*/}
+                  {/*</Popconfirm>*/}
+                {/*</span>*/}
+                  {/*: <a onClick={() => this.edit(record.key)}>修改</a>*/}
+              {/*}*/}
+            {/*</div>*/}
           </div>
         );
       },
