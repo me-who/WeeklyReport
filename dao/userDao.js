@@ -187,7 +187,6 @@ module.exports = {
         // console.log(result);
 
         var workbook = new Excel.Workbook();
-
         var worksheet = workbook.addWorksheet('Sheet');
 
         worksheet.columns = [
@@ -216,7 +215,6 @@ module.exports = {
 
         var data = result;
         var length = data.length;
-
         for(let i in data) {
           worksheet.addRow(data[i]).commit();
         }

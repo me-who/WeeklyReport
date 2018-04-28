@@ -100800,38 +100800,6 @@ var ReportWrite = function (_React$Component) {
               { href: '#' },
               '\u5220\u9664'
             )
-          ),
-          _react2.default.createElement(
-            'div',
-            { className: 'editable-row-operations' },
-            editable ? _react2.default.createElement(
-              'span',
-              null,
-              _react2.default.createElement(
-                'a',
-                { onClick: function onClick() {
-                    return _this.save(record.key);
-                  } },
-                '\u4FDD\u5B58'
-              ),
-              _react2.default.createElement(
-                _popconfirm2.default,
-                { title: 'Sure to cancel?', onConfirm: function onConfirm() {
-                    return _this.cancel(record.key);
-                  } },
-                _react2.default.createElement(
-                  'a',
-                  null,
-                  '\u53D6\u6D88'
-                )
-              )
-            ) : _react2.default.createElement(
-              'a',
-              { onClick: function onClick() {
-                  return _this.edit(record.key);
-                } },
-              '\u4FEE\u6539'
-            )
           )
         );
       }
